@@ -1,0 +1,93 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: 
+    Acumin Pro ExtraCondensed Bold
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    Acumin Pro ExtraCondensed Bold Italic
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+    Interstate Light
+    font-family: interstate,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    ----------------------------------------
+    CODING STEPS
+
+    Wireframe X
+    Basic Structure X
+    Setting up Fonts, Colors & icons 
+    Build & Style nav & header 
+    Buid & Style main section 
+    Build & Style footer 
+    Perfecting Responsive Layout 
+    Applying Animation 
+    Finializing, optimizing & launching 
+============================================ */
+
+:root{
+    --sf-pink: #efb4cb;
+    --sf-orange: #eb595e;
+    --sf-purple: #823f91;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: interstate,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h1{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+h2{
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.btn{
+    background-color: var(--sf-purple);
+    border-color: var(--sf-purple);
+}
+
+.btn:hover{
+    background-color: white;
+    border-color: var(--sf-purple);
+    color: var(--sf-purple);
+}
+
+.bg-dark{
+    background-color: var(--sf-purple) !important;
+}
+
+.carousel-photo01{
+    background: url("img/smoothies01.jpg") no-repeat center center;
+    background-color: black;
+    background-size: cover;
+}
+
+.carousel-photo02{
+    background: url("img/smoothies02.jpg") no-repeat center center;
+    background-color: black ;
+    background-size: cover;
+}
